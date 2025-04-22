@@ -1,12 +1,50 @@
-# React + Vite
+# 📊 Investment Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application built with Vite that allows users to calculate the future value of an investment based on input values such as initial investment, annual interest rate, and duration in years. It visually displays the yearly growth of the investment and provides a breakdown of interest earned and total balance over time.
 
-Currently, two official plugins are available:
+## What is used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For this project only react is used with vite
 
-## Expanding the ESLint configuration
+## Follow the steps below to run this project locally.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📦 Requirements
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 16 or later recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+---
+
+### 🔧 Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/your-username/your-project-name.git
+cd your-project-name
+npm install
+# or
+yarn
+```
+
+---
+
+### ▶️ Running the Project
+
+To start the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Vite will start the server, and you can access the app at:
+
+```
+http://localhost:5173
+```
+
+> ℹ️ If port 5173 is busy, Vite will choose the next available port and display it in the terminal.
